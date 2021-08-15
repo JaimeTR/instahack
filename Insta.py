@@ -360,3 +360,4 @@ if __name__ == "__main__":
     check_avalaible_proxys(proxys)
     get_csrf()
     starter()
+   
