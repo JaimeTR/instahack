@@ -18,7 +18,7 @@
 ```
 ### PAYPAL
 
-AYUDAME A SEGUIR TRABAJANDO [https://www.paypal.me/jaimetarazona](https://www.paypal.me/jaimetarazona).
+AYUDAME A SEGUIR TRABAJANDO [DONAR](https://www.paypal.me/jaimetarazona).
 
 
 ### GRACIAS
