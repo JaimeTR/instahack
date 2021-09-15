@@ -16,15 +16,9 @@
 **Disfrutalo**
 
 ```
-
-## Imagen
-<img src="https://i.ibb.co/6XHHvTf/WEBSTRTOOLS.png"/>
-
-AYUDAME A SEGUIR TRABAJANDO [Donar](https://www.paypal.me/jaimetarazona).
-
 ### PAYPAL
 
-[https://www.paypal.me/jaimetarazona](https://www.paypal.me/jaimetarazona).
+AYUDAME A SEGUIR TRABAJANDO [https://www.paypal.me/jaimetarazona](https://www.paypal.me/jaimetarazona).
 
 
 ### GRACIAS
