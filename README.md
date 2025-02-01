@@ -16,11 +16,6 @@
 **Disfrutalo**
 
 
-### PAYPAL
-
-AYUDAME A SEGUIR TRABAJANDO [DONAR](https://www.paypal.me/jaimetarazona).
-
-
 ### GRACIAS
 
 JaimeTR hecho con ❤️
